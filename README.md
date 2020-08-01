@@ -18,3 +18,5 @@ $ snowcracker.sh /usr/share/wordlists/rockyou.txt snow.txt "flag{.*}"
 Password is: bambam
 flag{dummy_snow_flag}
 ```
+
+![alt text](https://github.com/m1m0n/Snowcracker/blob/master/example.png?raw=true)
