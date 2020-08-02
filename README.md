@@ -12,13 +12,13 @@ $ cp snowcracker.sh /usr/local/bin/ #optional
 ```
 
 # Usage
-`Usage: ./snowcracker.sh <Wordlist> <File> <Flag Format>`
+`Usage: ./snowcracker.sh <File> <Wordlist> <Flag Format>`
 
 # Example
 ```
-$ snowcracker.sh /usr/share/wordlists/rockyou.txt snow.txt "flag{.*}"
+$ snowcracker.sh snow.txt /usr/share/wordlists/rockyou.txt "flag{.*}"
 Password is: bambam
 flag{dummy_snow_flag}
 ```
 
-![alt text](https://github.com/m1m0n/Snowcracker/blob/master/example.png?raw=true)
+![alt text](https://github.com/m1m0n/Snowcracker/blob/master/ex.png?raw=true)
