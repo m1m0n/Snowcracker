@@ -1,7 +1,8 @@
 #!/bin/bash
 
 #BY: M1M0N
-
+# Note that I Have used -C to Compress the data if concealing, or uncompress it if extracting.
+# You may need it sometimes and other times may not. So you will need to remove this option
 display_usage() {  
 	echo -e "Usage: ./snowcracker.sh <File> <Wordlist> <Flag Format>" 
 	} 
