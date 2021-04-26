@@ -31,9 +31,11 @@ Usage: ./snowcracker.sh <File> <Wordlist> <Flag Format>
 
 # Examples
 In This One I Have used **-C** option to uncompress the data when extracting.
+
 ![Example1](./ex1.png)
 
 
 Another Example without using **-C**
+
 ![Example2](./ex2.png)
 
