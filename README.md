@@ -10,7 +10,7 @@
 $ git clone https://github.com/m1m0n/Snowcracker.git
 $ cd Snowcracker/
 $ chmod +x snowcracker.sh
-$ cp snowcracker.sh /usr/local/bin/ #optional
+$ sudo cp snowcracker.sh /usr/local/bin/ #optional
 ```
 
 ---
@@ -23,15 +23,17 @@ $ sudo apt-get install stegsnow
 ---
 
 # Usage
-`Usage: ./snowcracker.sh <File> <Wordlist> <Flag Format>`
+```
+Usage: ./snowcracker.sh <File> <Wordlist> <Flag Format>
+```
 
 ---
 
-# Example
-```
-$ snowcracker.sh snow.txt /usr/share/wordlists/rockyou.txt "flag{.*}"
-Password is: bambam
-flag{dummy_snow_flag}
-```
+# Examples
+In This One I Have used **-C** option to uncompress the data when extracting.
+![Example1](./ex1.png)
 
-![alt text](./ex.png)
+
+Another Example without using **-C**
+![Example2](./ex2.png)
+

@@ -11,13 +11,15 @@ display_usage() {
 		display_usage
 		exit 1
 	else
+		echo "[-] Trying To Bruteforce..."
 		cat $2 | while read line; do
-  		output=$(stegsnow -C -Q -p $line $1 | grep -i $3)
-  		if [ $? -ne "1" ]
-  		then
-  			echo "Password is: $line"
-  			echo $output
-  			break
-  		fi
-  	done
+			output=$(stegsnow -C -Q -p $line $1 | grep -i $3)
+			if [ $? -ne "1" ]
+			then
+				echo "[+] Password is: $line"
+				echo $output
+				exit 1
+			fi
+  		done
 	fi
+	
