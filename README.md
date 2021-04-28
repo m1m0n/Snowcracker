@@ -9,7 +9,7 @@
 ```
 $ git clone https://github.com/m1m0n/Snowcracker.git
 $ cd Snowcracker/
-$ chmod +x snowcracker.sh
+$ chmod +x snowcracker.sh   
 $ sudo cp snowcracker.sh /usr/local/bin/ #optional
 ```
 
@@ -24,7 +24,7 @@ $ sudo apt-get install stegsnow
 
 # Usage
 ```
-Usage: ./snowcracker.sh <File> <Wordlist> <Flag Format>
+Usage: ./snowcracker.sh <File> <Wordlist> <Flag Format> <Compress Mode: C Or N>
 ```
 
 ---
