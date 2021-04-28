@@ -14,7 +14,7 @@ display_usage() {
 		wordlist=$(echo $2 | grep -oE "[^/]+$")
 		echo "[-] Trying To Bruteforce Using "$wordlist
 		cat $2 | while read line; do
-			output=$(stegsnow -Q -p $line $1 | grep -i $3)
+			output=$(stegsnow -C -Q -p $line $1 | grep -i $3)
 			if [ $? -ne "1" ]
 			then
 				echo "[+] Password is: $line"
